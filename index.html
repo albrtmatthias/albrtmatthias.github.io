@@ -3,27 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecole pascal</title>
+    <title>École Pascal</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #1e90ff;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #1e90ff;
+        }
+        footer {
+            background-color: #1e90ff;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Bienvenue sur ecolepascal.fr</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="historie.html">Historie</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="horaires.html">Horaires</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h2>Home Page</h2>
-        <img src="images/sample-image.jpg" alt="Sample Image">
-        <p>Ici, vous trouverez les horraires, et l'histoire de l'ecole</p>
+        <h2>Page d'Accueil</h2>
+        <img src="images/sample-image.jpg" alt="Image de l'école">
+        <p>Ici, vous trouverez les horaires, et l'histoire de l'école.</p>
     </main>
     <footer>
-        <p>&copy; 2024 My Website</p>
+        <p>&copy; 2024 École Pascal</p>
     </footer>
 </body>
 </html>
